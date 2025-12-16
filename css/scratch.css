@@ -1,0 +1,124 @@
+body {
+            background-color: #c8c5c3;
+            font-family: 'Georgia', serif;
+            color: #3e2723;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+    }
+        
+        /* Header styling */
+header {
+            background-color: #4c544ae7;
+            color: #fff5e1;
+            padding: 2rem;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        
+header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        /* Navigation styling */
+nav {
+            background-color: #505050;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+nav a {
+            color: #fff5e1;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-family: 'Verdana', sans-serif;
+            font-weight: bold;
+        }
+        
+nav a:hover {
+            color: #ffd700;
+        }
+        
+        /* Main content container */
+.container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        /* Section divs */
+.players-section {
+            border-left: 4px solid #4c544ae7;
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+.teams-section {
+            background-color: #faf8f3;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+.video-section {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e8dcc8;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        /* Heading styles */
+h2 {
+            color: #4c544ae7;
+            font-family: 'Arial', sans-serif;
+            border-bottom: 2px solid #8b6f47;
+            padding-bottom: 0.5rem;
+        }
+        
+h3 {
+            color: #4c544ae7;
+            font-family: 'Verdana', sans-serif;
+        }
+        
+        /* Image styling */
+.footballers-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            display: block;
+            margin: 1rem auto;
+        }
+.teams-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            display: block;
+            margin: 1rem auto;
+        }
+        /* List styling */
+ol {
+            color: #4c544ae7;
+            font-weight: bold;
+        }
+        
+ul {
+            color: #4c544ae7;
+            font-weight: normal;
+        }
+        
+        /* Footer */
+footer {
+            background-color: #4c544ae7;
+            color: #fff5e1;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
